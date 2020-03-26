@@ -1,0 +1,192 @@
+/*** BASE STYLES**/
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+}
+
+#portfolio {
+    height: 1300px;
+}
+#about, #contact {
+  height: 600px;
+}
+
+/***** GRID ******/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  margin:0 auto;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  margin:0 auto;
+  float: left;
+}
+
+/******** HEADER **********/
+
+header {
+    height: 800px;
+    background: url('../img/hero-image.png');
+    background-size: cover;
+}
+
+header h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 60px;
+    color: #bdbf09;
+    padding-top: 350px;
+    margin: 0px;
+    text-align: center;
+}
+
+header h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    color: #095256;
+    margin: 0px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+nav {
+    float: right;
+    padding: 75px 25px 75px 75px;
+    margin: 30px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform:uppercase;
+    text-decoration:underline;
+    font-size: 18px;
+    color: #828282;
+    padding-left: 80px;
+}
+
+/********* PORTFOLIO ************/
+#portfolio {
+  background-color: ffffff;
+}
+
+#portfolio h2 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 30px;
+  color: #095256;
+  padding: 50px;
+  margin: 20px;
+  text-align: center;
+}
+
+#portfolio img {
+  float: left;
+  margin: 20px;
+}
+
+h3 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 30px;
+  color: #095256;
+}
+
+.roguepickings {
+  margin-top: 11px;
+  margin-bottom: 30px;
+}
+
+.jubliee {
+  margin-top: 0px;
+}
+
+.holstee {
+  margin-top:52px;
+}
+
+#portfolio p {
+  margin-bottom: 150px;
+  color: #095256;
+}
+
+ /********* ABOUT *********/
+
+#about {
+  background-color: #087e8b;
+}
+
+#about .full-width {
+    clear:both;
+}
+
+#about h2 {
+  color: #fefefe;
+  margin: 40px;
+  padding: 30px;
+  text-align: center;
+}
+
+#about img {
+  border: 5px;
+  border-style: solid;
+  border-color: black;
+  float: left;
+  margin-left: 50px;
+  padding: 0px;
+  height: 80%;
+  width: 80%;
+  transform: rotate(90deg);
+}
+
+#about p {
+  color: #fefefe;
+  margin: 0;
+}
+
+/* footer */
+
+#contact{
+  background-color: #095156;
+  height: 400px;
+}
+
+#contact .full-width {
+  clear: both;
+}
+
+#contact h2 {
+  color: #ffffff;
+  margin-top: 0px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+#contact h3, p {
+  color: #ffffff;
+}
+
+#contact h3 {
+  text-align: center;
+  padding: 0px;
+}
+
+#contact p {
+  text-align: center;
+}
+
+#contact ul {
+  list-style: none;
+  text-align: center;
+  padding: 0px;
+}
+
+#contact ul li {
+     display: inline-block;
+}
